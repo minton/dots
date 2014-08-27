@@ -1,0 +1,13 @@
+[alias]
+	aa = !git add -A && git st
+	st = status
+	c = commit -m
+	ca = commit --amend -C HEAD
+	br = branch
+	remotes = ls-remote --heads origin
+	co = checkout
+	cob = checkout -b
+	rmb = !sh -c 'git branch -D $1 && git push origin :$1' -
+	cleanup = !git remote prune origin && git gc && git clean =dfx && git stash clear
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+	rb = rebase
