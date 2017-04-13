@@ -1,4 +1,3 @@
-das-dots
-========
-
-My dots
+- .gitconfig
+- .hyper
+- .powershellProfile1
