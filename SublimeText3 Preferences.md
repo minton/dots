@@ -15,16 +15,14 @@ LSP-Elixir
 	"theme": "Spacegray.sublime-theme",
 	"spacegray_fileicons": true,
 	"spacegray_sidebar_font_xlarge": true,
-	"font_face": "Fira Code",
+	"spacegray_tabs_font_xlarge": true,
+	"font_face": "Fira Code Medium",
+	"font_size": 16,
 	"font_options":
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 16,
-	"ignored_packages":
-	[
-		"Vintage"
-	],
+	"highlight_line": true,	
 	"hot_exit": false,
 	"folder_exclude_patterns":
 	[
@@ -35,6 +33,10 @@ LSP-Elixir
 	],
 	"lsp_format_on_save": true,
 	"tab_size": 2,
-	"translate_tabs_to_spaces": true
+	"translate_tabs_to_spaces": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	]
 }
 ```
