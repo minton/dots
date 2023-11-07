@@ -1,3 +1,1 @@
-- .gitconfig
-- .hyper
-- .powershellProfile1
+Config files
