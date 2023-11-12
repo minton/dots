@@ -19,8 +19,9 @@ export SSH_AUTH_SOCK=~/Library/Group\ Containers/2BUA8C4S2C.com.1password/t/agen
 export PATH=/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH
 #---END
 
-# Sublime Text
+# Sublime Text & Sublime Merge Command Line tools
 export PATH="/Applications/Sublime Text.app/Contents/SharedSupport/bin":$PATH
+export PATH="/Applications/Sublime Merge.app/Contents/SharedSupport/bin":$PATH
 #---END
 
 # Homebrew
@@ -37,6 +38,7 @@ autoload -Uz compinit && compinit
 #---END
 
 # Ensure local bin is in PATH <--this should happen near the end
+mkdir -p /Users/minton/.bin
 export PATH=/Users/minton/.bin:$PATH
 #---END
 
@@ -50,4 +52,3 @@ export LS_COLORS
 # Set default working directory
 cd ~/dev
 #---END
-
