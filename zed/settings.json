@@ -1,0 +1,11 @@
+{
+  "vim_mode": false,
+  "base_keymap": "SublimeText",
+  "theme": "Atelier Sulphurpool Dark",
+  "ui_font_size": 16,
+  "buffer_font_size": 16,
+  "buffer_font_family": "FiraCode Nerd Font Mono",
+  "elixir": {
+    "lsp": "next_ls"
+  }
+}
