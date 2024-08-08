@@ -43,7 +43,7 @@ export PATH=/Users/minton/.bin:$PATH
 #---END
 
 # Fix `ls` command
-#  This requires coreutils 
+#  This requires `brew install coreutils`
 alias ls='gls -lhF --group-directories-first --color=auto'
 LS_COLORS=$LS_COLORS:'di=1;36:fi=0;32:ex=1;91' 
 export LS_COLORS
